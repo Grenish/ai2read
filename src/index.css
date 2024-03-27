@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Magistic";
+  src: url("./fonts/Magistic-Regular.woff2") format("woff2"),
+    url("./fonts/Magistic-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.magi {
+  font-family: "Magistic", sans-serif;
+}
+
+textarea{
+  resize: vertical;
+}
